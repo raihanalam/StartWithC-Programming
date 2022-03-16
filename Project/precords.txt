@@ -1,0 +1,13 @@
+-----------------------
+ Booking ID : BOID1 
+-----------------------
+Flight No   : FL6052
+Name        : Shafin
+Address     : Dhaka
+Passport NO : #334ffdfsfsd
+Age         : 23
+Gender      : 
+Mobile No   : 435934863
+Card Number : 6390808
+Paid        : 10000
+Booking Time: Sat Feb 05 11:40:52 2022

@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main()
+{
+    int arr[20],n=10,i,j,temp,index_min;
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&arr[i]);
+    }
+    for(i=0;i<n;i++)
+    {
+       index_min=i;
+       for(j=i+1;j<n;j++)
+       {
+           if(arr[j]<arr[index_min])
+           {
+               index_min=j;
+           }
+       }
+       if(index_min!=i)
+       {
+           temp=arr[i];
+           arr[i]=arr[index_min];
+           arr[index_min]=temp;
+       }
+    }
+    for(i=0;i<n;i++)
+    {
+        printf("%d",arr[i]);
+    }
+}
